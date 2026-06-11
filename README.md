@@ -1,0 +1,63 @@
+# FUTURE_CS_01 - Vulnerability Assessment Report
+
+## Internship Task
+
+Future Interns - Cyber Security Internship
+
+## Objective
+
+To perform a read-only vulnerability assessment on a public website and identify common security weaknesses.
+
+## Target Website
+
+https://httpbin.org
+
+## Scope
+
+The assessment was limited to public-facing resources and passive analysis techniques.
+
+### Activities Performed
+
+* Security Header Analysis
+* Service Enumeration using Nmap
+* Browser Developer Tools Inspection
+* Configuration Review
+
+### Activities Not Performed
+
+* Exploitation
+* Brute Force Attacks
+* Authentication Bypass
+* Denial of Service Testing
+* Data Extraction
+
+## Tools Used
+
+* Nmap
+* Chrome Developer Tools
+* SecurityHeaders.com
+* Canva
+* GitHub
+
+## Findings Summary
+
+1. Missing Content Security Policy (High)
+2. Missing Strict-Transport-Security (Medium)
+3. Missing X-Frame-Options (Medium)
+4. Missing X-Content-Type-Options (Low)
+5. Missing Referrer-Policy (Low)
+6. Missing Permissions-Policy (Low)
+7. Information Disclosure (Low)
+8. Open Web Service Ports (Low)
+
+## Repository Contents
+
+* Vulnerability Assessment Report PDF
+* Evidence Screenshots
+* Assessment Documentation
+
+## Author
+
+N. Sarvesh Nandha
+Future Interns Cyber Security Internship
+
